@@ -4,3 +4,14 @@ sites/*/settings*.php
 # Ignore paths that contain user-generated content.
 sites/*/files
 sites/*/private
+mysql_error.log
+*.log
+mysql_error.log
+*.log
+*.ibd
+*.pid
+ib_logfile0
+ib_logfile1
+ibdata1
+*.log
+ib_logfile0
