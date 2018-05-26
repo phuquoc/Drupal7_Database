@@ -31,3 +31,170 @@ Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribut
 2018-05-24 15:50:26 11988 [ERROR] InnoDB: Failed to find tablespace for table '"drupal7"."cache_admin_menu"' in the cache. Attempting to load the tablespace with space id 589.
 2018-05-24 15:50:26 11988 [ERROR] InnoDB: In file '.\drupal7\cache_admin_menu.ibd', tablespace id and flags are 564 and 0, but in the InnoDB data dictionary they are 589 and 0. Have you moved InnoDB .ibd files around without using the commands DISCARD TABLESPACE and IMPORT TABLESPACE? Please refer to http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
 2018-05-24 15:50:26 11988 [ERROR] InnoDB: Could not find a valid tablespace file for 'drupal7/cache_admin_menu'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2018-05-25 08:06:10 213c InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-05-25  8:06:10 8508 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-05-25  8:06:10 8508 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-05-25  8:06:10 8508 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-05-25  8:06:10 8508 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-05-25  8:06:10 8508 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-05-25  8:06:10 8508 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-05-25  8:06:10 8508 [Note] InnoDB: Using generic crc32 instructions
+2018-05-25  8:06:10 8508 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-05-25  8:06:10 8508 [Note] InnoDB: Completed initialization of buffer pool
+2018-05-25  8:06:10 8508 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-05-25  8:06:10 8508 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 460845473 in the ib_logfiles!
+2018-05-25  8:06:17 8508 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2018-05-25 08:06:17 213c  InnoDB: Error: table 'drupal7/cache_admin_menu'
+InnoDB: in InnoDB data dictionary has tablespace id 589,
+InnoDB: but a tablespace with that id does not exist. There is
+InnoDB: a tablespace of name drupal7/cache_admin_menu and id 564, though. Have
+InnoDB: you deleted or moved .ibd files?
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-05-25  8:06:18 8508 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-05-25  8:06:18 8508 [Note] InnoDB: Waiting for purge to start
+2018-05-25  8:06:18 8508 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 460845473
+2018-05-25  8:06:18 6832 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-05-25  8:06:18 8508 [Note] Plugin 'FEEDBACK' is disabled.
+2018-05-25  8:06:19 8508 [Note] Server socket created on IP: '::'.
+2018-05-25  8:06:20 8508 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-05-25  8:09:35 7664 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-05-25  8:09:35 7664 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-05-25  9:14:30 7664 [ERROR] InnoDB: Failed to find tablespace for table '"drupal7"."cache_admin_menu"' in the cache. Attempting to load the tablespace with space id 589.
+2018-05-25  9:14:30 7664 [ERROR] InnoDB: In file '.\drupal7\cache_admin_menu.ibd', tablespace id and flags are 564 and 0, but in the InnoDB data dictionary they are 589 and 0. Have you moved InnoDB .ibd files around without using the commands DISCARD TABLESPACE and IMPORT TABLESPACE? Please refer to http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2018-05-25  9:14:30 7664 [ERROR] InnoDB: Could not find a valid tablespace file for 'drupal7/cache_admin_menu'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2018-05-25 11:57:19 730 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-05-25 11:57:19 1840 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-05-25 11:57:19 1840 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-05-25 11:57:19 1840 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-05-25 11:57:19 1840 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-05-25 11:57:19 1840 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-05-25 11:57:19 1840 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-05-25 11:57:19 1840 [Note] InnoDB: Using generic crc32 instructions
+2018-05-25 11:57:19 1840 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-05-25 11:57:19 1840 [Note] InnoDB: Completed initialization of buffer pool
+2018-05-25 11:57:19 1840 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-05-25 11:57:19 1840 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 461552177 in the ib_logfiles!
+2018-05-25 11:57:31 1840 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2018-05-25 11:57:34 730  InnoDB: Error: table 'drupal7/cache_admin_menu'
+InnoDB: in InnoDB data dictionary has tablespace id 589,
+InnoDB: but a tablespace with that id does not exist. There is
+InnoDB: a tablespace of name drupal7/cache_admin_menu and id 564, though. Have
+InnoDB: you deleted or moved .ibd files?
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-05-25 11:57:35 1840 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-05-25 11:57:35 1840 [Note] InnoDB: Waiting for purge to start
+2018-05-25 11:57:35 1840 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 461552177
+2018-05-25 11:57:35 7324 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-05-25 11:57:35 1840 [Note] Plugin 'FEEDBACK' is disabled.
+2018-05-25 11:57:35 1840 [Note] Server socket created on IP: '::'.
+2018-05-25 11:57:35 1840 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-05-25 11:59:42 3940 [ERROR] InnoDB: Failed to find tablespace for table '"drupal7"."cache_admin_menu"' in the cache. Attempting to load the tablespace with space id 589.
+2018-05-25 11:59:42 3940 [ERROR] InnoDB: In file '.\drupal7\cache_admin_menu.ibd', tablespace id and flags are 564 and 0, but in the InnoDB data dictionary they are 589 and 0. Have you moved InnoDB .ibd files around without using the commands DISCARD TABLESPACE and IMPORT TABLESPACE? Please refer to http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2018-05-25 11:59:42 3940 [ERROR] InnoDB: Could not find a valid tablespace file for 'drupal7/cache_admin_menu'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2018-05-25 12:31:27 2858 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-05-25 12:31:27 10328 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-05-25 12:31:27 10328 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-05-25 12:31:27 10328 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-05-25 12:31:27 10328 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-05-25 12:31:27 10328 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-05-25 12:31:27 10328 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-05-25 12:31:27 10328 [Note] InnoDB: Using generic crc32 instructions
+2018-05-25 12:31:27 10328 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-05-25 12:31:27 10328 [Note] InnoDB: Completed initialization of buffer pool
+2018-05-25 12:31:27 10328 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-05-25 12:31:27 10328 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 483331514 in the ib_logfiles!
+2018-05-25 12:31:27 10328 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2018-05-25 12:31:28 2858  InnoDB: Error: table 'drupal7/cache_admin_menu'
+InnoDB: in InnoDB data dictionary has tablespace id 589,
+InnoDB: but a tablespace with that id does not exist. There is
+InnoDB: a tablespace of name drupal7/cache_admin_menu and id 564, though. Have
+InnoDB: you deleted or moved .ibd files?
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-05-25 12:31:29 10328 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-05-25 12:31:29 10328 [Note] InnoDB: Waiting for purge to start
+2018-05-25 12:31:29 10328 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 483331514
+2018-05-25 12:31:29 9352 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-05-25 12:31:29 10328 [Note] Plugin 'FEEDBACK' is disabled.
+2018-05-25 12:31:29 10328 [Note] Server socket created on IP: '::'.
+2018-05-25 12:31:29 10328 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-05-25 12:31:32 3480 [ERROR] InnoDB: Failed to find tablespace for table '"drupal7"."cache_admin_menu"' in the cache. Attempting to load the tablespace with space id 589.
+2018-05-25 12:31:32 3480 [ERROR] InnoDB: In file '.\drupal7\cache_admin_menu.ibd', tablespace id and flags are 564 and 0, but in the InnoDB data dictionary they are 589 and 0. Have you moved InnoDB .ibd files around without using the commands DISCARD TABLESPACE and IMPORT TABLESPACE? Please refer to http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2018-05-25 12:31:32 3480 [ERROR] InnoDB: Could not find a valid tablespace file for 'drupal7/cache_admin_menu'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2018-05-25 13:28:22 2fc InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-05-25 13:28:22 764 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-05-25 13:28:22 764 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-05-25 13:28:22 764 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-05-25 13:28:22 764 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-05-25 13:28:22 764 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-05-25 13:28:22 764 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-05-25 13:28:22 764 [Note] InnoDB: Using generic crc32 instructions
+2018-05-25 13:28:22 764 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-05-25 13:28:22 764 [Note] InnoDB: Completed initialization of buffer pool
+2018-05-25 13:28:22 764 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-05-25 13:28:22 764 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 483356887 in the ib_logfiles!
+2018-05-25 13:28:23 764 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2018-05-25 13:28:23 2fc  InnoDB: Error: table 'drupal7/cache_admin_menu'
+InnoDB: in InnoDB data dictionary has tablespace id 589,
+InnoDB: but a tablespace with that id does not exist. There is
+InnoDB: a tablespace of name drupal7/cache_admin_menu and id 564, though. Have
+InnoDB: you deleted or moved .ibd files?
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-05-25 13:28:24 764 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-05-25 13:28:24 764 [Note] InnoDB: Waiting for purge to start
+2018-05-25 13:28:24 764 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 483356887
+2018-05-25 13:28:24 6236 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-05-25 13:28:24 764 [Note] Plugin 'FEEDBACK' is disabled.
+2018-05-25 13:28:24 764 [Note] Server socket created on IP: '::'.
+2018-05-25 13:28:24 764 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-05-25 13:29:05 8752 [ERROR] InnoDB: Failed to find tablespace for table '"drupal7"."cache_admin_menu"' in the cache. Attempting to load the tablespace with space id 589.
+2018-05-25 13:29:05 8752 [ERROR] InnoDB: In file '.\drupal7\cache_admin_menu.ibd', tablespace id and flags are 564 and 0, but in the InnoDB data dictionary they are 589 and 0. Have you moved InnoDB .ibd files around without using the commands DISCARD TABLESPACE and IMPORT TABLESPACE? Please refer to http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2018-05-25 13:29:05 8752 [ERROR] InnoDB: Could not find a valid tablespace file for 'drupal7/cache_admin_menu'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2018-05-26 10:58:27 1834 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-05-26 10:58:27 6196 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-05-26 10:58:27 6196 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-05-26 10:58:27 6196 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-05-26 10:58:27 6196 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-05-26 10:58:27 6196 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-05-26 10:58:27 6196 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-05-26 10:58:27 6196 [Note] InnoDB: Using generic crc32 instructions
+2018-05-26 10:58:27 6196 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-05-26 10:58:27 6196 [Note] InnoDB: Completed initialization of buffer pool
+2018-05-26 10:58:27 6196 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-05-26 10:58:27 6196 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 483494547 in the ib_logfiles!
+2018-05-26 10:58:29 6196 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2018-05-26 10:58:30 1834  InnoDB: Error: table 'drupal7/cache_admin_menu'
+InnoDB: in InnoDB data dictionary has tablespace id 589,
+InnoDB: but a tablespace with that id does not exist. There is
+InnoDB: a tablespace of name drupal7/cache_admin_menu and id 564, though. Have
+InnoDB: you deleted or moved .ibd files?
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-05-26 10:58:30 6196 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-05-26 10:58:30 6196 [Note] InnoDB: Waiting for purge to start
+2018-05-26 10:58:30 6196 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 483494547
+2018-05-26 10:58:31 1468 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-05-26 10:58:31 6196 [Note] Plugin 'FEEDBACK' is disabled.
+2018-05-26 10:58:31 6196 [Note] Server socket created on IP: '::'.
+2018-05-26 10:58:31 6196 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-05-26 10:58:50 6772 [ERROR] InnoDB: Failed to find tablespace for table '"drupal7"."cache_admin_menu"' in the cache. Attempting to load the tablespace with space id 589.
+2018-05-26 10:58:50 6772 [ERROR] InnoDB: In file '.\drupal7\cache_admin_menu.ibd', tablespace id and flags are 564 and 0, but in the InnoDB data dictionary they are 589 and 0. Have you moved InnoDB .ibd files around without using the commands DISCARD TABLESPACE and IMPORT TABLESPACE? Please refer to http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2018-05-26 10:58:50 6772 [ERROR] InnoDB: Could not find a valid tablespace file for 'drupal7/cache_admin_menu'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
