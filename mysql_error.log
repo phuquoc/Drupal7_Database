@@ -231,6 +231,7 @@ Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribut
 2018-05-26 13:48:24 3572 [ERROR] InnoDB: Failed to find tablespace for table '"drupal7"."cache_admin_menu"' in the cache. Attempting to load the tablespace with space id 589.
 2018-05-26 13:48:24 3572 [ERROR] InnoDB: In file '.\drupal7\cache_admin_menu.ibd', tablespace id and flags are 564 and 0, but in the InnoDB data dictionary they are 589 and 0. Have you moved InnoDB .ibd files around without using the commands DISCARD TABLESPACE and IMPORT TABLESPACE? Please refer to http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
 2018-05-26 13:48:24 3572 [ERROR] InnoDB: Could not find a valid tablespace file for 'drupal7/cache_admin_menu'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+<<<<<<< HEAD
 2018-05-26 13:58:41 7b0 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
 2018-05-26 13:58:41 1968 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
 
@@ -264,3 +265,5 @@ Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribut
 2018-05-26 13:59:14 5952 [ERROR] InnoDB: Failed to find tablespace for table '"drupal7"."cache_admin_menu"' in the cache. Attempting to load the tablespace with space id 589.
 2018-05-26 13:59:14 5952 [ERROR] InnoDB: In file '.\drupal7\cache_admin_menu.ibd', tablespace id and flags are 564 and 0, but in the InnoDB data dictionary they are 589 and 0. Have you moved InnoDB .ibd files around without using the commands DISCARD TABLESPACE and IMPORT TABLESPACE? Please refer to http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
 2018-05-26 13:59:14 5952 [ERROR] InnoDB: Could not find a valid tablespace file for 'drupal7/cache_admin_menu'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+=======
+>>>>>>> f24ae5cc49a6edfadfee0d71b52861466ab5d132
